@@ -1,0 +1,32 @@
+body{
+    background-color: #eeddc6;
+}
+
+a {
+    text-decoration: none;
+    color: #7c5226;
+    font-family: 'Times New Roman'; 
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}   
+
+a:hover {
+    color: rgb(197, 188, 64);
+   }
+
+.menu {
+    
+    width: 900px;
+    margin: auto;
+}
+
+.conteudo{
+    width: 900px;
+    margin: auto;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 22px;
+    text-align: justify;
+}
