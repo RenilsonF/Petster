@@ -2,6 +2,18 @@ body{
     background-color: #eeddc6;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}   
+   
+a:hover {
+    text-decoration: underline;
+}
+
 .menu {
     
     width: 900px;
