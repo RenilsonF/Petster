@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Petster - Contato</title>
+</head>
+
+<body>
+
+    <div class="menu">
+        <table border="0" width="900">
+            <tr>
+                <td> <img src="Images/img_logo-v3.png" alt="Logo"> </td>
+                <td align="right">
+                    <a href="index.html">| HOME | </a>
+                    <a href="quem_somos.html">| QUEM SOMOS | </a>
+                    <a href="contato.html">| CONTATO |</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <img src="Images/capa2.png" alt="Capa">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="conteudo">
+        <h2>Contate-nos</h2>
+
+        <p>
+            Se tiver alguma dúvida, dica para aprimoramento do site ou qualquer outro assunto relacionado, entre em contato.
+        </p>
+    </div>
+
+    <div class="form">
+        <form action="https://api.staticforms.xyz/submit" method="POST">
+            <input type="hidden" name="accessKey" value="2b4d88e2-d15d-44a9-a567-1f165e2434c0">
+            Nome: <br>
+            <input type="text" name="name" required class="caixas" placeholder="Seu nome..."><br><br>
+            E-mail: <br>
+            <input type="email" name="email" required class="caixas" placeholder="Seu E-mail..."><br><br>
+            Assunto: <br>
+            <input type="hidden" name="subject" value="Contato Petster - ">
+            <input type="text" name="subject" required class="caixas" placeholder="Assunto..."><br><br>
+            Descrição: <br>
+            <textarea name="message" style="width: 20em;" rows="6" class="caixas" placeholder="Digite aqui..."></textarea><br>
+
+            <button type="submit" onsubmit class="button">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
