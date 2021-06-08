@@ -23,10 +23,33 @@ a:hover {
     margin: auto;
 }
 
-.conteudo{
+.conteudo {
     width: 900px;
     margin: auto;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 21px;
+    font-family: 'ubunto', sans-serif ;
+    font-size: 20px;
     text-align: justify;
+}
+
+.titles {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form {
+    width: 900px;
+    margin: auto;
+    font-family: 'ubunto', sans-serif ;
+    
+}
+
+.caixas {
+    border-radius: 5px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 8px 8px;
+    background-color:  #dfbc8c;
+    border-radius: 5px;
 }
